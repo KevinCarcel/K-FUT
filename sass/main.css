@@ -1,1 +1,65 @@
-/*# sourceMappingURL=main.css.map */
+body {
+  margin: 0;
+}
+
+.header1 {
+  background-color: #8E805C;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header1-droite {
+  right: 20px;
+  position: absolute;
+}
+
+.logo1-header1 {
+  width: 150px;
+}
+
+.link1-logo {
+  text-decoration: none;
+  color: rgb(233, 232, 232);
+}
+
+.link1-logo:hover {
+  color: rgb(80, 80, 80);
+}
+
+#logo-twit {
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+#logo-ytb {
+  font-size: 30px;
+}
+
+.header2 {
+  width: 100%;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.29);
+}
+
+.nav-fixe {
+  display: flex;
+  padding-top: 10px;
+  justify-content: space-around;
+}
+
+.link-nav1 {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #8E805C;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.logo-nav {
+  width: 30px;
+  justify-content: center;
+}/*# sourceMappingURL=main.css.map */
